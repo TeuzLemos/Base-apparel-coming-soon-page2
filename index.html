@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>copy</title>
+    <link rel="stylesheet" href="copy.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 1200px)">
+</head>
+
+<body>
+    <main class="media-text">
+         <img src="imagens/logo.svg" alt="" class="logo-mobile">
+        <picture>
+            <source media="(max-width:1200px )" srcset="imagens/hero-mobile.jpg">
+            <source media="(min-width:650px )" srcset="imagens/hero-desktop.jpg">
+            <img src="imagens/hero-desktop.jpg" alt="imagem modelo" class="img-main">
+        </picture>
+        <div class="text">
+            <h1>WE'RE <br><span>COMING<br>SOON</span></h1>
+            <p>
+                Hello fellow shoppers! We're currently building our new fashion store. Add your email below to
+                stay
+                up-to-date with announcements and our launch deals.
+            </p>
+            <form action="" method="post" class="form">
+                <input type="email" name="email" id="email" placeholder="Email Address" autocomplete="email" required>
+                <input type="submit" value=">" id="button">
+
+            </form>
+        </div>
+        <img src="imagens/logo.svg" alt="" class="logo">
+    </main>
+</body>
+
+</html>
